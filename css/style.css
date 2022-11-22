@@ -1,0 +1,10 @@
+body {
+    background-color: #3C0919 !important;
+    color: #FF2C55 !important;
+    font-family: 'Sono', sans-serif !important;
+}
+
+ul {
+    list-style-type: circle;
+    font-size: 2rem;
+}
