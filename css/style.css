@@ -2,7 +2,6 @@ body {
     background-color: #3C0919 !important;
     color: #FF2C55 !important;
     font-family: 'Sono', sans-serif !important;
-    position: relative;
 }
 
 ul {
@@ -11,6 +10,5 @@ ul {
 }
 
 button {
-    position: absolute;
     bottom: 5rem;
 }
