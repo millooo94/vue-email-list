@@ -25,7 +25,7 @@
         <div class="row h-100 justify-content-center align-items-center">
             <div class="col-auto">
                 <ul>
-                    <li class= "text-center" v-for="(item, i) in ArrEmail"  v-show="ArrEmail.length == 10" >{{ArrEmail[i]}}</li>
+                    <li class= "text-center" v-for="mail in ArrEmail"  v-show="ArrEmail.length == 10" >{{mail}}</li>
                 </ul>
             </div>
                 <button class="col-auto position-absolute" @click="generateAgain">GENERATE AGAIN</button>
